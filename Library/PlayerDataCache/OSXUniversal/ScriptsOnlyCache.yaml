@@ -482,4 +482,4 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/dsmessi10/Downloads/ProgrammingLab/BuildLab2/Lab2Build.app
+  playerPath: /Users/dsmessi10/Downloads/BuildsLab2/Lab2Build.app
