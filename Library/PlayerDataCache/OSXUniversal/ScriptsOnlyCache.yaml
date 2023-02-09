@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GroundEnemy
     - Movement
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -44,7 +45,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 2682}
+    - Class: 114
+      Script: {instanceID: 15866}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
@@ -253,7 +260,7 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
-      Hash: d6aff02feb6d6a7007588383d13a96ea
+      Hash: 21d9ba170b5878bc2621dc3f1a6ac411
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Movement
@@ -479,7 +486,13 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 21d9ba170b5878bc2621dc3f1a6ac411
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GroundEnemy
   platform: 2
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/dsmessi10/Downloads/BuildsLab2/Lab2Build.app
+  playerPath: /Users/dylansharon/Downloads/Build(EXE.file)Lab3/Lab3Build.app

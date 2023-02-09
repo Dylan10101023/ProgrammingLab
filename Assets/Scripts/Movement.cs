@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    // Start is called before the first frame update
     public float moveSpeed;
-
-    private Rigidbody rigidBody;
-
+    public Rigidbody rigidBody;
     public float jumpForce;
 
     void Awake()
@@ -22,15 +19,15 @@ public class Movement : MonoBehaviour
         Jump();
     }
 
-    void Jump()
+    public virtual void Jump()
     {
-        if(Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump"))
         {
             CheckJumpForce();
         }
     }
 
-    void Move()
+    public virtual void Move()
     {
         //Get our inputs
         float xInput = Input.GetAxis("Horizontal");
