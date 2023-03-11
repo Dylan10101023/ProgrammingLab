@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Box
   - Coin
+  - SpawnedObject
   layers:
   - Default
   - TransparentFX
