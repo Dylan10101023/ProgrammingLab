@@ -1,14 +1,15 @@
 ﻿<Properties>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameData.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SaveLoadManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/Movement.cs" />
-      <File FileName="Assets/Scripts/GroundEnemy.cs" />
-      <File FileName="Assets/Scripts/PlayerManager.cs" />
-      <File FileName="Assets/Scripts/CollectableItems.cs" />
-      <File FileName="Assets/Scripts/SpawnController.cs" />
-      <File FileName="Assets/Scripts/GameData.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Movement.cs" Line="21" Column="11" />
+      <File FileName="Assets/Scripts/GroundEnemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CollectableItems.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpawnController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameData.cs" Line="7" Column="38" />
+      <File FileName="Assets/Scripts/SaveLoadManager.cs" Line="29" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +18,7 @@
             <Node name="Assembly-CSharp" expanded="True">
               <Node name="Assets" expanded="True">
                 <Node name="Scripts" expanded="True">
-                  <Node name="GameData.cs" selected="True" />
+                  <Node name="SaveLoadManager.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -26,7 +27,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
