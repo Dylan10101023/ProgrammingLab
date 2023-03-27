@@ -8,9 +8,22 @@ public class Movement : MonoBehaviour
     public Rigidbody rigidBody;
     public float jumpForce;
 
+    GameData gameData = new GameData();
+    private GameObject player;
+
     void Awake()
     {
         rigidBody = GetComponent<Rigidbody>();
+    }
+
+    void Start()
+    {
+        /*gameData.score = 100;
+        gameData.level = 5;
+        gameData.playerPosition = player.transform.position;
+
+        SaveLoadManager saveLoadManager = GetComponent<SaveLoadManager>();
+        saveLoadManager.SaveGame(gameData);*/
     }
 
     void Update()
