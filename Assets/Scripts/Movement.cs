@@ -24,6 +24,17 @@ public class Movement : MonoBehaviour
 
         SaveLoadManager saveLoadManager = GetComponent<SaveLoadManager>();
         saveLoadManager.SaveGame(gameData);*/
+
+        /*Inventory<string> stringInventory = new Inventory<string>();
+        stringInventory.AddItem("sword");
+        stringInventory.AddItem("shield");
+        stringInventory.PrintInventory(); // prints "sword", "shield"
+
+        Inventory<int> intInventory = new Inventory<int>();
+        intInventory.AddItem(10);
+        intInventory.AddItem(20);
+        intInventory.PrintInventory(); // prints "10", "20"*/
+
     }
 
     void Update()
